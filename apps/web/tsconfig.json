@@ -1,5 +1,12 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
+  "paths": {
+  "@app/*": ["./app/*"],
+  "@assets/*": ["./assets/*"],
+  "@components/*": ["./@components/*"],
+  "@styles/*": ["./styles/*"],
+  "@utils/*": ["./utils/*"]
+},
   "compilerOptions": {
     "plugins": [
       {
